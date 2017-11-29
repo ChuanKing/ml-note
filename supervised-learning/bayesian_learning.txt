@@ -1,0 +1,22 @@
+Bayesian Learning:
+Basic Idea: use the Bayes rule to find out which hypothesis is better
+Bayes Rule: Pr(h|D) = Pr(D|h) * Pr(h) / Pr(D)
+  Pr(h|D): probability of hypothesis of give data
+  Pr(D|h): probability of give data that use the hypothesis
+  Pr(h): probability of the hypothesis this is the domain knowledge
+  Pr(D): probability of the data
+  The idea of using this Bayes Rule is to calculate Pr(h|D) is very hard but calculate the Pr(D|h) is easier
+  priors matter
+Maximum a posteriori: assume prior is uniform
+  hmap = argmax Pr(D|h) * P(h)
+Maximum lielihood hypothesis
+  hml = argmin SUM (di - h(xi))2
+Minimum decriation:
+  hmap = argmax Pr(D|h) * P(h)
+       = argmin[-lg P(D|h) - lg P(h)] 
+  -lg P(D|h): error
+  -lg P(h): the number of the hypothesis
+  Idea the best hypothesis is the one that minimize error and the size of your hypothesis
+
+*** Vmap = argmax SUM P(v|h) P(h|D)
+

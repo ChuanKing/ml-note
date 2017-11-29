@@ -1,0 +1,32 @@
+Computational Learning Theory
+
+idea: to see which learning algorithm is good
+how to compare: 
+  1. what is the problem you want to learn
+  2. to see if the specifi algorithms work or not
+  3. or the problem cannot be solved
+how can define which algorithm is good or not:
+  1. time
+  2. space
+  3. the data: the fewer data used the better algorithm is
+More detail about which learning is good:
+  1. successful rate
+  2. the numbers of the data should be use
+  3. the complexity of hypothesis
+    good: can solve the complex problem
+    bad: easily overfit
+  4. accuracy to which target concept is approximated
+  5. manner in which training examples presented
+    method: batch and online
+  6. manner in which training examples selected
+The way the examples be seleceted:
+  1. learner ask teacher
+  2. teacher give learner
+  3. nature 
+  4. Evil 
+PAC learning
+  Probably approximately correct learning
+Epsilon Exhausted
+  all the hypothesis is less than this number
+Haussler Theorem
+  m >= 1/e * (ln |H| + ln 1/d)

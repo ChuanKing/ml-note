@@ -1,0 +1,21 @@
+artificial neural networks:
+  there are several input x1, x2, x3 with weight w1, w2, w3
+  if the sum of xn * wn > threshold, then output is 1, otherwise the output is 0
+
+neural network for ML is find out the wn and threshold
+
+perception rule
+  set the weight for single unit to match the training set
+  wi = wi + ∆wi
+  ∆wi = n (y - ∆y) xi
+  ∆y = (∑ wi xi ≥ 0)
+  y is the target
+  ∆y is the output
+  n is the learning rate
+  x input
+  the perception rule will find the linearly separation
+
+gradient descent
+  for non-linearly separablity
+  ∆wi = n (y - a) xi
+

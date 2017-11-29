@@ -1,0 +1,8 @@
+Support Vector Machines:
+
+idea: find a line can seperate two groups, and there is only some of the points that is really matter
+Margin: the max distance between two different hyperplane
+the best way to find the margin is quadratic program
+support vector: is the point that can have more effect on the margin
+when the current dimension is not enough we can project it into higher dimension
+kernel trick: is the domain knowledge, which is used to project to higher dimension

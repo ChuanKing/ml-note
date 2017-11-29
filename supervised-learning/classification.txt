@@ -1,0 +1,56 @@
+classifiction
+  definiation:
+    map the input to some label
+    output is discrete set
+  key word:
+    Instances: input
+    concept: funciton, map input to output
+    target concept: result, answer
+    hypothesis: all possible function
+    sample: training set
+    candidate: concept will be target concept
+    testing set: use the condidate set to test
+    important!!! training set should not be the testing set
+  decision tree
+    1. find out the criteria
+    2. tree parts:
+      a. node - decision node, you take a attribute and ask question
+      b. edges of the tree - value
+      c. leaf node - answer
+    3. should always go from top of the tree
+    4. the decision tree should from general to detail
+    5. how to make tree:
+      a. pick best attribute (attribute can splite the data set to equal two parts)
+      b. ask question
+      c. follow the anser of the path
+      d. go to a until you get the answer
+    6. expressiveness
+      a. A and B
+      b. A or B
+      c. A xor B (they cannot both to be true)
+      d. n-or: any (this will be a linear growth)
+      e. n-xor: parity (this will be exponential growth)
+    7. ID3:
+      a. pick the best attribute
+      b. assign A as decision attribute for the node
+      c. for each value of A create a descendant of node
+      d. sort the training examples to leaves
+      e. to a
+    8. best attribute:
+      a. information gain
+      b. Gain(S, A) = Entropy(S) - SUM (|Sv| / |S|) Entropy(Sv)
+    9. bias:
+      a. restriction bias: when do the decisioin, all of the decision has same possibility
+      b. preference bias: some router have more possibility than the other
+      c. good split at top
+      d. correct over incorrect
+      c. prefer shorter tree
+    10. other considerations
+      a. continuous attributes: continue to discrete. or look the training set
+      b. when do we stop?: everything is classified correctly
+      c. regression
+
+regression
+  definiation:
+    continuous value function(maping the space to some real number)
+    output is continuous

@@ -1,0 +1,47 @@
+instance based learning
+  put the all the information into the database
+  advantage:
+    remrmbers
+    fast
+    simple
+  disadvantage
+    no generalization
+    very sencitive to the noise
+
+how to handle the data point which is not exist
+  use the nearst neighbor
+  find serveral neighbor and return result
+  you have to find the similarity first
+
+K-NN algorithm
+  training data: D = { xi, yi}
+  distance metric: d(q, x)    <------- domain knowladge
+  number of neighbors: k      <---|
+  query point: q
+  - NN = { i: d(q, x) k smallest}
+  - return
+    - classification: vote of the y in NW
+    - regression: y is number and take the mean
+
+K-NN disadventage:
+  the accuracy depend on d(),  K and average
+
+K-NN bias:
+  preference bias:
+    prefer one then the orhter
+  locality:
+    near points are similar
+    is d()
+  smoothness:
+    is average function
+  all features matter equally:
+    you have to make all feature equally
+
+curse of dimensionality
+  as the number of features or dimensions grows, the amount of data we need to generalize accurately grows exponentially
+
+other concern:
+  - d(x, q) = euclidean, manhattan, weighted...
+  - k
+
+

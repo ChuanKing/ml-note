@@ -1,0 +1,33 @@
+regression
+  definiation:
+    continuous value function(maping the space to some real
+    output is continuous
+
+regression:
+  use the function to approximate the result
+
+linear regression:
+  minimize the deviation between the line and the number
+  the best way to find the line is using calculus
+
+order of polynomial:
+  Polynomial expansion
+  the hight order can fit the data well, however it can create craziness
+
+error:
+  you have put the error into the consideration
+  sensor error
+  maliciously
+  transcription error
+  unmodeled influences
+
+cross validation
+  the data should be IID(independent and identically distributed)
+  take some training data as test data and cacluate the error
+  do the pre step serveral time
+  it is important to find polynomial order
+
+other input
+  vector input increase dimension
+  Discrete input: encode the input but make sure the order
+

@@ -1,0 +1,34 @@
+Optimization Approaches:
+  generate and test: the input space is finit and small. Also the function is complex like mod
+  calculus: the function has to have derivative and can be solved as zero
+  newton's method: has the derivative and can be iteratively improve, the function is single optimum
+  if all above method does not work ---> Randomized Optimization
+
+Hill Climbing:
+  idea: find a point and find the maxium of x-1, x, x+1
+  hill climbing can be stuck in the local optimization
+
+Randomized Hill Climbing
+  repeat hill climbing, after find the local maxium and randomly chose another point and repeat
+
+Simulated Annealing
+  don't always improve -- sometime you need to search
+               exploit                         explore
+  algorith:
+    1. sample new point xt in N(x)
+    2. jump to that point probability P(x, xt, T)
+    3. decrease the temperature
+    P(x, xt, T) = ---> 1. if f(xt) >= f(x)
+                  \--> e exp((f(xt) - f(x)) / T)
+    if the xt is far from x, that is not likely to move
+    T -> 0: like hill climbing
+    T -> infinity: random walk
+    Pr(ending at maxium) = (e exp(f(x) / T)) / Zt  
+
+Genetic Algorithms
+  Population of individuals
+  Muation local search
+  Crossover
+  generations
+
+MIMIC

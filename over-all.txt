@@ -1,0 +1,7 @@
+supervised learning = approximation
+unsupervised learning = Description
+reinforcment learning = after serveral decision made
+
+supervised learning: labels data well
+unsupervised learning: behavior scores well
+reinforcment learning: cluster scores well

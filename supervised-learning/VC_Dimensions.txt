@@ -1,0 +1,5 @@
+VC Dimensions:
+idea: the largest set of inputs that the hypothesis class can label in all possible ways
+the VC dimensions is d+1
+equation:
+  m >= 1/e (8 VC(H) log2 13/e + 4 log2 2/d )

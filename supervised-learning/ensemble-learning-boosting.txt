@@ -1,0 +1,23 @@
+ensemble learning
+  building up bunch of rules and combining them together until you got something that is good
+
+ensemble learning algorithm
+  learn over a subset of data and generate a rule
+  repeate previous step
+  combine all of the rules
+
+bagging
+  take a random subset and combine by the mean
+
+Boosting
+  take the hardest question(make the hardest question high rate)
+  weight vote
+
+weak learner
+  no matter what the distribution is over your data, will do better than chance
+  better than the change(all the learning set error rate is less 0.5)
+
+D
+  is used to give the hard question a high weight
+
+
