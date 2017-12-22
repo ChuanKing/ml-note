@@ -1,0 +1,30 @@
+Feature Selection
+
+idea: selection small set of features to learn
+complexity: The time complex of this feature selection algorithm is exponential
+method:
+  filtering: 
+    +: fast
+    -: feature isolated; ignores the learning problem 
+    ways: 
+      information gain
+      variance, entropy
+      "useful" features
+      independent/non-redundant
+  wrapping:
+    +: takes into account model bias and learning
+    -: very slow
+    ways: 
+      hill climbing
+      randomized opt
+      forward: adding the features and see the score
+      backward: keep removing the feature
+relevence:
+  xi is stronly relevent if reming it degraded bayes optimal classifier
+  xi is weakly relevent if: 1. not strongly relevant. 2. subset of features S such that adding xi to S improves bayes optimal classifier
+  otherwise xi is irrelevant
+  *** relevence increase the information
+useful:
+  measures effect on a particular predictor
+  *** reduce the error on particular learner
+

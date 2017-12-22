@@ -1,0 +1,27 @@
+Clustering and Expectation Maximization
+
+supervised learning: function approximation
+unsupervised learning: Data description
+
+Single Linkage Clustering
+  consider each object a cluster
+  define inter-cluster distance as the distance between the closest two points
+  merge two closest clusters
+  repeat
+
+k-means clustering
+  pick k centers (1st random)
+  each center claimss its closest points
+  recompute the centers
+  repeat until center does not move
+
+Soft Clustering
+  idea instead hard seperate the point to two different cluster, you can give the presentage
+  EM: https://www.youtube.com/watch?v=iQoXFmbXRJA
+  
+Clustering Properties
+  Richness: can generate the different number of clusters
+  Scale-ivariance: if change the distance scalint the cluster dosenot chanage
+  consistency: 
+
+

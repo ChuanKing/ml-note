@@ -32,3 +32,8 @@ Genetic Algorithms
   generations
 
 MIMIC
+  generate samples from P(x) of 𝛉t
+  set 𝛉t+1 to nth percentice
+  retain only these samples f(x)>= 𝛉t+1
+  estimate P(x) of 𝛉t+!
+  go to step 1

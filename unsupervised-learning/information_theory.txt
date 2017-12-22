@@ -1,0 +1,9 @@
+Information Theory
+
+Entorpy: E = SUM(P(s) * log(1/P(s))) = - SUM(P(s) log(P(s)))
+Joint Entorpy: H(x, y) = - SUM(P(x, y) log(P(x, y)))
+Conditional Entropy: H(y|x) = - SUM(P(y|x) log(P(y|x)))
+If x and y independent: H(y|x) = H(y), H(x, y) = H(y) + H(x)
+Mutual Information: I(x, y) = H(y) - H(x|y)
+KL Divergence: D(p||q) = div(p(x)log(p(x) / q(x)))
+

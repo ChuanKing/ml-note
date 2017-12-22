@@ -1,0 +1,8 @@
+Feature Transformation
+
+idea: Transform the feature set to another feature set
+method:
+  PCA: Pricipal Components Analysis, linear algebratic modeling
+  ICA: Independent Components Analysis, more probabilistic modeling
+  RCA: Random Components Analysis, very fast
+  LDA: Linear Discriminant
